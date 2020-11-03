@@ -4,9 +4,7 @@ package com.reljicd.util;
 import com.reljicd.model.Product;
 import org.springframework.data.domain.Page;
 
-/**
- * @author Dusan Raljic
- */
+
 public class Pager {
 
     private final Page<Product> products;
