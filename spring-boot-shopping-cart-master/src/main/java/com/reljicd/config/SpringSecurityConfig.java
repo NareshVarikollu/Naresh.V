@@ -13,13 +13,7 @@ import org.springframework.security.web.access.AccessDeniedHandler;
 
 import javax.sql.DataSource;
 
-/**
- * Spring Security Configuration
- * http://docs.spring.io/spring-boot/docs/current/reference/html/howto-security.html
- * Switches off Spring Boot automatic security configuration
- *
- * @author Dusan
- */
+
 @Configuration
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
